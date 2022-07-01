@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <button class="toggle-theme">
+        <i class="fas fa-moon"></i>
+    </button>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <button class="toggle-menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="navigation">
+            <li>
+                <a href="#">home</a>
+            </li>
+            <li>
+                <a href="#">about</a>
+            </li>
+            <li>
+                <a href="#">works</a>
+            </li>
+            <li>
+                <a href="#">contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="banner section-padding">
+        <div class="content">
+            <div class="textBox">
+                <h2>It's a dream code for your project</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. 
+                </p>
+                <button class="btn-more">read more</button>
+            </div>
+            <div class="imgBox">
+                <img src="img/develop.svg" alt="pessoa ouvindo música">
+            </div>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="works section-padding">
+        <h1>Our works</h1>
+        <div class="slider-container">
+            <div class="slider-item slider-item--visible">
+                <div class="slider-info">
+                    <h2>Clean code</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper odio ante, vitae 
+                        varius mi vehicula quis. Nullam mattis dolor at nulla lacinia lobortis.
+                    </p>
+                </div>
+                <div class="slider-image">
+                    <img src="img/slider1.svg">
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="slider-info">
+                    <h2>Great results</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper odio ante, vitae 
+                        varius mi vehicula quis. Nullam mattis dolor at nulla lacinia lobortis.
+                    </p>
+                </div>
+                <div class="slider-image">
+                    <img src="img/slider2.svg">
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="slider-info">
+                    <h2>Otimization for your!</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper odio ante, vitae 
+                        varius mi vehicula quis. Nullam mattis dolor at nulla lacinia lobortis.
+                    </p>
+                </div>
+                <div class="slider-image">
+                    <img src="img/hear_music.svg">
+                </div>
+            </div>
+        </div>
+        <div class="slider-actions">
+            <button class="back">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button class="next">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+
+    </section>
+
+
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
